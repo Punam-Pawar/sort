@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + React</title>
+    <style>
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 30vh;
+        margin: 0;
+      }
+      .bubble {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        background-color: #f9f9f9;
+        color: black;
+      }
+    
+      #root {
+        width: 100%;
+        max-width: 500px;
+        text-align: center;
+      }
+      .input-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 0px;
+       
+      }
+      .button-container {
+        display: flex;
+        justify-content: space-between;
+        width: 250px;
+      }
+      input, button {
+        margin: 10px;
+      }
+      #numInput {
+        height: 40px;
+        width: 350px;
+        text-align: center;
+        margin-bottom: 60px;
+        margin-right: 50px;
+
+      }
+      #add {
+        height: 40px;
+        width: 80px;
+        margin-left: 50px;
+      }
+      #sort {
+        height: 40px;
+        width: 80px;
+      }
+      .logo{
+        margin-top: 10px;
+        height: 550px;
+        width: 200px;
+      }
+    
+
+    </style>
+  </head>
+  <body>
+    <div class="bubble">
+       <h1 class="bSort">Bubble Sort</h1> 
+      <img src="./src/assets/bubble.png" alt="" class="logo">
+      <div id="root"></div>
+      <div class="input-container">
+        
+    </div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
